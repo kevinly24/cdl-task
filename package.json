@@ -5,11 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
+  "homepage": "https://github.com/kevinly24/cdl-task",
   "dependencies": {
     "axios": "^0.18.0",
     "vue": "^2.5.17",
+    "vue-gh-pages": "^1.19.0",
     "vue-router": "^3.0.2",
     "vuetify": "^1.3.0"
   },
